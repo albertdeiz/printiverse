@@ -2,7 +2,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     document.getElementById('intro').style.display = 'none';
     document.getElementById('main-content').classList.add('show-content');
-  }, 5000);
+  }, 2500);
 });
 
 document.addEventListener('DOMContentLoaded', () => {

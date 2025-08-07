@@ -59,8 +59,8 @@ header h1 {
   width: 180px;
   height: 0;
   background: white;
-  animation: printLayer 4s ease-in forwards;
-  animation-delay: 1s;
+  animation: printLayer 2s ease-in forwards;
+  animation-delay: 0.5s;
 }
 
 @keyframes enterPrinter {
