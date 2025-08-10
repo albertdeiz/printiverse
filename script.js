@@ -3,6 +3,15 @@ window.addEventListener('load', () => {
     document.getElementById('intro').style.display = 'none';
     document.getElementById('main-content').classList.add('show-content');
   }, 2500);
+
+  const button = document.querySelector('#nav-icon2');
+  const menuContent = document.getElementById('menu-content');
+
+  button.addEventListener('click', () => {
+    window.document.body.classList.toggle('no-scroll');
+    button.classList.toggle('open');
+    menuContent.classList.toggle('active');
+  });
 });
 
 document.addEventListener('DOMContentLoaded', () => {

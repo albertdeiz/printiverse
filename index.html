@@ -20,37 +20,57 @@
     </div>
   </div>
 
-  <div class="content" id="main-content">
-	  <header class="main-header">
-      <div class="logo">
-        <a href="https://printiverse.cl" class="logo-link">Printiverse 3D</a>
-      </div>
-      <nav class="nav-menu">
-        <a href="#inicio">Inicio</a>
-        <a href="#catalogo">Catálogo</a>
-        <a href="#personalizados">Personalizados</a>
-        <a href="#contacto">Contacto</a>
-        <a href="#nosotros">Sobre Nosotros</a>
+  <div class="page-container" id="main-content">
+    <div class="menu-content" id="menu-content">
+      <div class="menu-inner">
+        <nav class="nav-menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#personalizados">Personalizados</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#nosotros">Sobre Nosotros</a>
+        </div>
       </nav>
-    </header>
+    </div>
+    <div class="content">
+      <header class="main-header">
+        <div class="logo">
+          <picture class="logo-container">
+            <source media="screen and (min-width: 576px)" srcset="https://printiverse.cl/img/descargae.png">
+            <source media="screen and (max-width: 575px)" srcset="https://printiverse.cl/img/descargaee.png">
+            <img src="https://sdmntprwestus3.oaiusercontent.com/files/00000000-c8ec-61fd-a1db-05895fe74101/raw?se=2025-08-09T15%3A59%3A30Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;scid=95ff6e8e-6648-50e2-9410-c7712c32e7c4&amp;skoid=9ccea605-1409-4478-82eb-9c83b25dc1b0&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2025-08-08T18%3A02%3A23Z&amp;ske=2025-08-09T18%3A02%3A23Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=ICJDQEuqhCIXw834iYr0Ch9DZ/r3DY%2B3yCR9RPiajWE%3D" alt="Printiverse" loading="eager">
+          </picture>
+        </div>
+        <div>
+          <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
 
-    <section class="hero">
-      <h1>¡Dale forma a tus ideas!</h1>
-      <p>Impresiones 3D únicas, rápidas y personalizadas. Envíos a todo Chile.</p>
-      <a href="#contacto" class="cta-btn" onclick="alert('Puedes solicitar este producto por interno al WhatsApp +56 9 3619 7477 o vía correo electrónico fabriziobuzz@gmail.com')">Contáctanos</a>
-    </section>
+      <section class="hero">
+        <h1>¡Dale forma a tus ideas!</h1>
+        <p>Impresiones 3D únicas, rápidas y personalizadas. Envíos a todo Chile.</p>
+        <a href="#contacto" class="cta-btn" onclick="alert('Puedes solicitar este producto por interno al WhatsApp +56 9 3619 7477 o vía correo electrónico fabriziobuzz@gmail.com')">Contáctanos</a>
+      </section>
 
-    <section class="products" id="product-list">
-      <!-- Productos cargados por JS -->
-    </section>
+      <section class="products" id="product-list">
+        <!-- Productos cargados por JS -->
+      </section>
 
-    <a class="whatsapp-btn" href="https://wa.me/56936197477" target="_blank" title="Habla con nosotros por WhatsApp">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-    </a>
+      <a class="whatsapp-btn" href="https://wa.me/56936197477" target="_blank" title="Habla con nosotros por WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+      </a>
 
-    <footer>
-      &copy; 2025 Printiverse - Todos los derechos reservados
-    </footer>
+      <footer>
+        &copy; 2025 Printiverse - Todos los derechos reservados
+      </footer>
+    </div>
   </div>
 
   <script src="script.js"></script>
